@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
 
-.page_topline p:first-child {
+.page_topline .text-sm-left p:first-child {
   display: none;
 }
 
@@ -6601,18 +6601,18 @@ a.logo {
 }
 
 .page_toplogo a.logo img {
-	max-width: 80px;
+	max-width: 200px;
 }
 
 @media (max-width: 1599px) {
 	.page_header a.logo img {
-		max-width: 80px;
+		max-width: 200px;
 	}
 }
 
 @media (max-width: 991px) {
 	.page_header a.logo img {
-		max-width: 60px;
+		max-width: 150px;
 	}
 }
 
@@ -9440,7 +9440,7 @@ section .intro_section .slide_description_wrapper {
 }
 
 .intro_section p {
-	margin-bottom: 3em;
+	/* margin-bottom: 3em; */
 	max-width: 780px;
 	margin-right: auto;
 	margin-left: auto;
